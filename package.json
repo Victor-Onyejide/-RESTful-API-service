@@ -1,0 +1,39 @@
+{
+  "name": "dwella-investing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-Onyejide/-RESTful-API-service.git"
+  },
+  "keywords": [
+    "user",
+    "management",
+    "and",
+    "real-estate",
+    "listings",
+    "management"
+  ],
+  "author": "Victor Onyejide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victor-Onyejide/-RESTful-API-service/issues"
+  },
+  "homepage": "https://github.com/Victor-Onyejide/-RESTful-API-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.13.0",
+    "nodemon": "^2.0.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
